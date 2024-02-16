@@ -1,0 +1,67 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2018/01/31/07/36/secret-3120483_1280.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color : #333; 
+    height: 100vh;
+}
+
+/* Style du formulaire */
+form {
+    width: 500px;
+    margin: 100px auto; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px; 
+}
+
+input[type="text"], input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; 
+    border: none;
+    border-radius: 5px;
+    color: #fff; 
+    cursor: pointer;
+}
+
+label {
+    font-size: 18px;
+}
+
+
+h2 {
+    text-align: center;
+    color: #fff; 
+    text-transform: uppercase;
+    padding-top: 5%;
+    font-size: 3em;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.center-image {
+    display: inline-block;
+}
+
+.image-container img{
+    width: 300px;
+}
